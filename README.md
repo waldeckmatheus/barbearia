@@ -12,8 +12,7 @@
 
 ### References
 - https://angular.io/
-- https://github.com/angular/angular-cli/blob/master/README.md.
-- https://www.npmjs.com/package/@angular/cli
+- https://github.com/angular/angular-cli/wiki
 - https://startbootstrap.com/template-overviews/sb-admin-2/
 - http://startangular.com/
 - https://nodejs.org/en/
