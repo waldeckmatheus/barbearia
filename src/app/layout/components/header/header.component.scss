@@ -1,15 +1,18 @@
-$topnav-background-color: #222;
+$topnav-background: -moz-linear-gradient(#268CEB, #1F72BF) repeat scroll 0 0 #1F72BF;
 :host {
     .navbar {
-        background-color: $topnav-background-color;
+        background: $topnav-background;
         .navbar-brand {
             color: #fff;
         }
         .nav-item > a {
-            color: #999;
+            color: whitesmoke;
             &:hover {
                 color: #fff;
             }
+        }
+        .nav-item >a:hover {
+            background:rgba(0,0,0,0.1);
         }
     }
     .messages {
