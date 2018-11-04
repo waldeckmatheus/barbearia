@@ -8,7 +8,27 @@
             <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
             <span>{{ 'Charts' | translate }}</span>
         </a> -->
-
+        <!-- TODO translate -->
+        <a routerLink="/usuario" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-list"></i>&nbsp;
+            <span>{{ 'Usuário' | translate }}</span>
+        </a>
+        <a routerLink="/funcionario" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-list"></i>&nbsp;
+            <span>{{ 'Funcionário' | translate }}</span>
+        </a>
+        <a routerLink="/cliente" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-list"></i>&nbsp;
+            <span>{{ 'Cliente' | translate }}</span>
+        </a>
+        <a routerLink="/produto" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-list"></i>&nbsp;
+            <span>{{ 'Produto' | translate }}</span>
+        </a>
+        <a routerLink="/servico" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-list"></i>&nbsp;
+            <span>{{ 'Serviço' | translate }}</span>
+        </a>
         <div class="nested-menu">
             <a class="list-group-item" (click)="addExpandClass('pages')">
                 <i class="fa fa-caret-down"></i>&nbsp;

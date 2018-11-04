@@ -9,14 +9,20 @@ const routes: Routes = [
         children: [
             { path: '', redirectTo: 'dashboard', pathMatch: 'prefix' },
             { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
-            { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
             { path: 'tables', loadChildren: './tables/tables.module#TablesModule' },
             { path: 'forms', loadChildren: './form/form.module#FormModule' },
-            { path: 'bs-element', loadChildren: './bs-element/bs-element.module#BsElementModule' },
-            { path: 'grid', loadChildren: './grid/grid.module#GridModule' },
             { path: 'components', loadChildren: './bs-component/bs-component.module#BsComponentModule' },
+            { path: 'usuario', loadChildren: '../usuario/usuario.module#UsuarioModule' },
+            { path: 'funcionario', loadChildren: '../funcionario/funcionario.module#FuncionarioModule' },
+            { path: 'cliente', loadChildren: '../cliente/cliente.module#ClienteModule' },
+            { path: 'produto', loadChildren: '../produto/produto.module#ProdutoModule' },
+            { path: 'servico', loadChildren: '../servico/servico.module#ServicoModule' },
             { path: 'blank-page', loadChildren: './blank-page/blank-page.module#BlankPageModule' }
-        ]
+        
+            // { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
+            // { path: 'bs-element', loadChildren: './bs-element/bs-element.module#BsElementModule' },
+            // { path: 'grid', loadChildren: './grid/grid.module#GridModule' },
+            ]
     }
 ];
 
