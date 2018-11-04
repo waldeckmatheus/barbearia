@@ -115,6 +115,9 @@
     }
   }
 }
+.dropdown-item:hover {
+  background:rgba(0,0,0,0.1);
+}
 
 .dropdown-menu.show {
   display: block;
